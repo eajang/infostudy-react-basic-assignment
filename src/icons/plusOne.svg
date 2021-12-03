@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116" height="116" viewBox="0 0 116 116">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="116" height="116" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#909090" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.716" y1="0.761" x2="0.366" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2e2d2d" stop-opacity="0.482"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.885" y1="0.789" x2="0.073" y2="0.426" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="1" y1="0.5" x2="0.139" y2="0.172" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-146 -505)">
+    <g transform="matrix(1, 0, 0, 1, 146, 505)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="49" cy="49" r="49" transform="translate(9 6)" fill="#3c3c3c"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M207.309,583.066,177.577,549.8H160.421v17.976l22.594,26.23S202.057,596.915,207.309,583.066Z" transform="translate(28 14)" fill="url(#linear-gradient)"/>
+    <path id="Path_2" data-name="Path 2" d="M229.055,543.429l-23.514-23.8-2.435,49.5,9.422,10.888s9.645-9.592,12.847-17.768S229.055,543.429,229.055,543.429Z" transform="translate(24 16)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_3" data-name="Path 3" d="M219.666,535.608l-14.125-15.982v14.152l3.921,4.407Z" transform="translate(-14 28.987)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_4" data-name="Path 4" d="M205.541,522.2l14.125,15.621V522.2Z" transform="translate(-31.245 44.174)" fill="url(#linear-gradient-4)"/>
+    <text id="_1" data-name="+1" transform="translate(204 585)" fill="#81d9f7" font-size="70" font-family="SFProRounded-Light, SF Pro Rounded" font-weight="300"><tspan x="-34.863" y="0">+1</tspan></text>
+  </g>
+</svg>

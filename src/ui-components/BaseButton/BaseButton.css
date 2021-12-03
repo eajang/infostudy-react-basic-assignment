@@ -1,0 +1,14 @@
+.button {
+  min-width: 48px;
+  height: auto;
+  cursor: pointer;
+}
+
+.button-text {
+  background-color: transparent;
+  border: 0;
+}
+
+.button-text:hover {
+  background-color: #81D9F780;
+}

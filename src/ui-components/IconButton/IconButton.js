@@ -1,7 +1,11 @@
-const IconButton = ({icon}) => {
-    return (
-        <button type="button"><img src={icon} alt="icon-button-plus" /></button>
-    );
+import './IconButton.css';
+
+const IconButton = ({type, icon, altText, onClick}) => {
+  return (
+    <button type={type} className="button-container" onClick={onClick}>
+      <img src={icon} alt={altText} className="button-iconImg"/>
+    </button>
+  );
 }
 
 export { IconButton };
