@@ -1,5 +1,7 @@
-# Getting Started with Create React App
+# Counter App
+<img src="./screenshot.png" width="50%"/>
 
+This project is created to practice react.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
