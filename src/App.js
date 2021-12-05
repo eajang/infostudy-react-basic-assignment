@@ -2,7 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import { BaseButton } from './ui-components/BaseButton/BaseButton';
 import { IconButton } from './ui-components/IconButton/IconButton';
-import { plusOne } from './icons/PlusOne.js'
+import { PlusOne } from './icons/PlusOne.js'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,7 +17,7 @@ function App() {
       <section className="buttonContainer flex-vertical-center flex-space-between">
         <BaseButton title="+1" onClick={increase}/>
         <BaseButton title="+1" type="text" onClick={increase}/>
-        <IconButton type="button" icon={plusOne} altText="icon button plus one" onClick={increase}/>
+        <IconButton type="button" icon={PlusOne} altText="icon button plus one" onClick={increase}/>
       </section>
     </div>
   );

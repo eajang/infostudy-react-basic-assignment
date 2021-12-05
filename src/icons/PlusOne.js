@@ -1,3 +1,3 @@
-import plusOne from './plusOne.svg';
+import PlusOne from './plusOne.svg';
 
-export { plusOne };
+export { PlusOne };
